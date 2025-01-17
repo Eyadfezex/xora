@@ -16,11 +16,11 @@ const Hero = () => {
               We designed XORA AI Video Editor to be an easy to use, quick to
               learn, and surprisingly powerful video editing tool.
             </p>
-            <Button icon="/images/zap.svg">Try it now</Button>
+            <Button icon="/zap.svg">Try it now</Button>
           </div>
           <div className="absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res ">
             <img
-              src="/images/hero.png"
+              src="/hero.png"
               className="size-1230 max-lg:h-auto"
               alt="hero"
             />

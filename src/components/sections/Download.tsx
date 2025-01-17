@@ -1,5 +1,8 @@
 import { Element } from "react-scroll";
 import { links, logos } from "../../constants";
+import lines from "../../../public/lines.svg";
+import xora from "../../../public/xora.svg";
+import screen from "../../../public/screen.jpg";
 import Marker from "../ui/Marker";
 const Download = () => {
   return (
@@ -12,12 +15,7 @@ const Download = () => {
           <div className="flex items-center">
             <div className="relative mr-6 flex-540 max-xl:flex-280 max-lg:flex-256 max-md:flex-100">
               <div className="mb-10">
-                <img
-                  src="/public/images/xora.svg"
-                  alt="xora"
-                  width={160}
-                  height={55}
-                />
+                <img src={xora} alt="xora" width={160} height={55} />
               </div>
               <p className="body-1 mb-10 max-w-md">
                 Try now for free on IOS, Android, PC, Web - Whatever your
@@ -37,7 +35,7 @@ const Download = () => {
                         <Marker />
                       </span>
                       <img
-                        src="/public/images/lines.svg"
+                        src={lines}
                         alt="lines"
                         className=" absolute size-13/20"
                       />
@@ -54,7 +52,7 @@ const Download = () => {
                   <span className="download_preview-dot left-11 bg-s3" />
                   <span className="download_preview-dot left-16 bg-p1/15" />
                   <img
-                    src="/public/images/screen.jpg"
+                    src={screen}
                     width={855}
                     height={655}
                     alt="demo"

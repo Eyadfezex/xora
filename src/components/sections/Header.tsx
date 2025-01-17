@@ -40,7 +40,7 @@ const Header = () => {
     >
       <div className="container flex h-14 items-center max-lg:px-5">
         <a href="/" className="lg:hidden flex-1 cursor-pointer z-2">
-          <img src="/images/xora.svg" alt="logo" width={115} height={55} />
+          <img src="/xora.svg" alt="logo" width={115} height={55} />
         </a>
         <div
           className={clsx(
@@ -66,12 +66,7 @@ const Header = () => {
                       "max-lg:hidden cursor-pointer transition-transform duration-500 "
                     )}
                   >
-                    <img
-                      src="/images/xora.svg"
-                      alt="logo"
-                      width={160}
-                      height={55}
-                    />
+                    <img src="/xora.svg" alt="logo" width={160} height={55} />
                   </LinkScroll>
                 </li>
                 <li className="nav-li">
@@ -83,14 +78,14 @@ const Header = () => {
             </nav>
             <div className=" lg:hidden block absolute top-1/2 left-0 w-[960px] h-[380px] -translate-x-[290px] -translate-y-1/2 rotate-90">
               <img
-                src="/images/bg-outlines.svg"
+                src="/bg-outlines.svg"
                 alt="outline"
                 width={960}
                 height={380}
                 className="relative z-2"
               />
               <img
-                src="/images/bg-outlines-fill.png"
+                src="/bg-outlines-fill.png"
                 alt="outline"
                 width={960}
                 height={380}
@@ -104,7 +99,7 @@ const Header = () => {
           onClick={() => setIsOpen((prefState) => !prefState)}
         >
           <img
-            src={`/images/${isOpen ? "close" : "magic"}.svg`}
+            src={`/${isOpen ? "close" : "magic"}.svg`}
             alt="magic"
             className="size-1/2 object-contain"
           />
